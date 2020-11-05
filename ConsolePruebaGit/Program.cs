@@ -20,7 +20,12 @@ namespace ConsolePruebaGit
             // Saludos desde la PUCESE
             Console.WriteLine("BIENVENIDOS A LA PUCESE");
             Console.WriteLine("SEGUNDO DE TIC");
+
+            //Fin de clase
+            Console.WriteLine("Time is over...");
             Console.ReadKey();
+
+            
         }
     }
 }
