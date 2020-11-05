@@ -15,6 +15,11 @@ namespace ConsolePruebaGit
 
             // Imprimir la suma de 2 números
             Console.WriteLine("La suma de 10 + 20: {0} ", (10 + 20));
+
+
+            // Saludos desde la PUCESE
+            Console.WriteLine("BIENVENIDOS A LA PUCESE");
+            Console.WriteLine("SEGUNDO DE TIC");
             Console.ReadKey();
         }
     }
