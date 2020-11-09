@@ -23,19 +23,9 @@ namespace ConsolePruebaGit
 
             //Fin de clase
             Console.WriteLine("Time is over...");
-
-            Console.WriteLine("Probando la función");
-            int suma = funcionSuma(10, 20);
-            Console.WriteLine("Resultado función = {0}", suma);
-
             Console.ReadKey();
-        }
 
-        //función suma
-        public static int funcionSuma(int a, int b)
-        {
-            return (a * 10 + b * 100);
+            
         }
-
     }
 }
