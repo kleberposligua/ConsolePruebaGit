@@ -23,9 +23,15 @@ namespace ConsolePruebaGit
 
             //Fin de clase
             Console.WriteLine("Time is over...");
+            Console.WriteLine("la suma de 10 + 20 es {0}", funcionSuma(10, 20));
             Console.ReadKey();
 
             
+        }
+
+        public static int funcionSuma(int a, int b)
+        {
+            return (a + b);
         }
     }
 }
